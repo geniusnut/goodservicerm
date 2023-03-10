@@ -1,0 +1,15 @@
+[package]
+name = "goodservicerm"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tui = "0.19.0"
+tui-tree-widget = {git="https://github.com/EdJoPaTo/tui-rs-tree-widget.git", branch="main"}
+csv = "1.2.0"
+serde_json = "1.0"
+serde = {version = "1.0", features = ["derive"]}
+
+crossterm = "0.26.1"
